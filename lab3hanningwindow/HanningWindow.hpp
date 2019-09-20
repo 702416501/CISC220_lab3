@@ -23,7 +23,4 @@ public:
 	void graphArray(bool x);
 };
 
-
-
-
 #endif /* HANNINGWINDOW_HPP_ */

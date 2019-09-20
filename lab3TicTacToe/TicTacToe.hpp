@@ -13,6 +13,7 @@ class TicTacToe{
 	char **board;
 	string xName;
 	string yName;
+
 public:
 	TicTacToe(string name1, string name2);
 	~TicTacToe();
@@ -23,10 +24,5 @@ public:
 	bool isCheckWin(char y);
 	void personPlay(char y);
 	void playGame();
-
-
 };
-
-
-
 #endif /* TICTACTOE_HPP_ */
